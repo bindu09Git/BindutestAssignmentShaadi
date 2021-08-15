@@ -1,0 +1,150 @@
+{
+	"id": "06859d46-4fc1-4151-8097-b2b629b10ced",
+	"name": "shaadi.com",
+	"timestamp": "2021-08-15T15:20:48.825Z",
+	"collection_id": "17092542-0419eee7-747e-4b12-b25b-7cff0bf38f88",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 30,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8525e581-fffa-4d70-a502-1610e71fb9ef",
+			"name": "GET",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Verify response time is less than 200ms": {
+					"pass": 19,
+					"fail": 0
+				}
+			},
+			"times": [
+				69,
+				76,
+				84,
+				61,
+				69,
+				67,
+				61,
+				69,
+				62,
+				62
+			],
+			"allTests": [
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "5234273e-7b27-4afd-a809-2f0b9ab677f8",
+			"name": "POST",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Verify response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				66,
+				62,
+				69,
+				82,
+				60,
+				67,
+				63,
+				77,
+				63,
+				69
+			],
+			"allTests": [
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				},
+				{
+					"Verify response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 1358,
+	"collection": {
+		"requests": [
+			{
+				"id": "8525e581-fffa-4d70-a502-1610e71fb9ef",
+				"method": "GET"
+			},
+			{
+				"id": "5234273e-7b27-4afd-a809-2f0b9ab677f8",
+				"method": "POST"
+			}
+		]
+	}
+}
